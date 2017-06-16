@@ -3,7 +3,7 @@
 
 [Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
-Based on [FrescoImageViewer](https://github.com/stfalcon-studio/FrescoImageViewer)
+Animated Transitions API customizable full screen image viewer for Fresco library that includes "pinch to zoom" and "swipe to dismiss" gestures. Based on [FrescoImageViewer](https://github.com/stfalcon-studio/FrescoImageViewer)
 
 ![alt tag](images/ezgif.com-video-to-gif.gif)
 
