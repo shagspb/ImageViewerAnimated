@@ -1,12 +1,8 @@
 # Image Viewer Animated
 
-Based on [PhotoView](https://github.com/chrisbanes/PhotoView) For [Fresco](https://github.com/facebook/fresco) and
 
 [Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
-To get a Git project into your build:
-
-Step 1. Add the JitPack repository to your build file
 
 ## Gradle
 
