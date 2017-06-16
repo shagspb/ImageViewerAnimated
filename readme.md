@@ -1,7 +1,7 @@
 # Image Viewer Animated
 
 
-[Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
+[Sample project](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
 Animated with Transitions API customizable full screen image viewer for Fresco library that includes "pinch to zoom" and "swipe to dismiss" gestures. Based on [FrescoImageViewer](https://github.com/stfalcon-studio/FrescoImageViewer)
 
