@@ -3,6 +3,8 @@
 
 [Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
+-![alt tag](images/ezgif.com-video-to-gif.gif)
+
 
 ## Gradle
 
