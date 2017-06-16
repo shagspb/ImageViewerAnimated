@@ -5,7 +5,7 @@
 
 Animated with Transitions API customizable full screen image viewer for Fresco library that includes "pinch to zoom" and "swipe to dismiss" gestures. Based on [FrescoImageViewer](https://github.com/stfalcon-studio/FrescoImageViewer)
 
-![alt tag](images/ezgif.com-video-to-gif.gif)
+![alt tag](images/1.gif)	![alt tag](images/2.gif)
 
 
 ## Gradle
