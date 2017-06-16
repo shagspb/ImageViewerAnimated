@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.helloanatoly.imageviewertransitions.multitouch.MultiTouchViewPager
+        <com.helloanatoly.animatedimagesviewer.MultiTouchViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

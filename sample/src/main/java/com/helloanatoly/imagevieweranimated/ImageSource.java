@@ -1,0 +1,72 @@
+package com.helloanatoly.imagevieweranimated;
+
+import java.util.ArrayList;
+
+public class ImageSource {
+    public static ArrayList<String> urls () {
+        ArrayList<String> urls = new ArrayList<>();
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44238/y18XKQp5zuI.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44231/Jp3qMSIVA4A.jpg");
+        urls.add("https://pp.userapi.com/c836534/v836534004/44221/dPXpGFT8dGU.jpg");
+        urls.add("https://pp.userapi.com/c639218/v639218323/259f9/8NGY1GYs1c0.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e90/Rsw5Ah7__QU.jpg");
+        urls.add("https://pp.userapi.com/c836326/v836326004/42e63/YzKr-LUkXmg.jpg");
+        return urls;
+    }
+}
