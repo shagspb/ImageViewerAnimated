@@ -3,7 +3,9 @@
 
 [Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
--![alt tag](images/ezgif.com-video-to-gif.gif)
+Based on [FrescoImageViewer][photoDraweeViewRepo]
+
+![alt tag](images/ezgif.com-video-to-gif.gif)
 
 
 ## Gradle
