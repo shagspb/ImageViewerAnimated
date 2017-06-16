@@ -3,7 +3,7 @@
 
 [Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
 
-Based on [FrescoImageViewer][photoDraweeViewRepo]
+Based on [https://github.com/stfalcon-studio/FrescoImageViewer][FrescoImageViewer]
 
 ![alt tag](images/ezgif.com-video-to-gif.gif)
 
