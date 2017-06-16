@@ -1,3 +1,7 @@
+# Image Viewer Animated
+
+[Sample projekt](https://github.com/shagspb/imageViewerAnimated/tree/master/sample)
+
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
