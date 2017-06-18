@@ -10,8 +10,20 @@ Animated with Transitions API customizable full screen image viewer for Fresco l
 
 ## Gradle
 
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}Copy
+Step 2. Add the dependency
+
 	dependencies {
-	        compile 'com.github.shagspb:imageViewerAnimated:1.0.3'
+		compile 'com.github.User:Repo:Tag'
 	}
 	
 	
