@@ -252,4 +252,8 @@ public class ImageViewerView extends RelativeLayout
                 && overlayView.dispatchTouchEvent(event);
     }
 
+    public MultiTouchViewPager pager() {
+        return this.pager;
+    }
+
 }

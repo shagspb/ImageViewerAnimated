@@ -27,12 +27,7 @@ public class SecondActivity extends AppCompatActivity {
                 .setStartPosition(getIntent().getIntExtra(MainActivity.EXTRA_POSITION, 0))
                 .setOverlayView(overlayView)
                 .hideStatusBar(false)
-                .setOnDismissListener(new ImageViewer.OnDismissListener() {
-                    @Override
-                    public void onDismiss() {
-                       onBackPressed();
-                    }
-                })
+                .exitAnimation(true)
                 .setImageChangeListener(new ImageViewer.OnImageChangeListener() {
                     @Override
                     public void onImageChange(int position) {

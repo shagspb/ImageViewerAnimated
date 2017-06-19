@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private final SharedElementCallback ExitTransitionCallback = new SharedElementCallback() {
         @Override
         public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {
-            if (SecondActivity.SelectedIndex >= 0 && adapter.getView(SecondActivity.SelectedIndex) != null) {
+            if (SecondActivity.SelectedIndex >= 0 && adapter.getView(SecondActivity.SelectedIndex) != null && names.size() > 0) {
                 sharedElements.put(names.get(0), adapter.getView(SecondActivity.SelectedIndex));
                 SecondActivity.SelectedIndex = -1;
             }

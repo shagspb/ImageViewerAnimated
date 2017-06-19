@@ -77,9 +77,7 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
                     ScalingUtils.ScaleType.CENTER_CROP, ScalingUtils.ScaleType.FIT_CENTER));
             builder.activity.getWindow().setSharedElementReturnTransition(DraweeTransition.createTransitionSet(
                     ScalingUtils.ScaleType.FIT_CENTER, ScalingUtils.ScaleType.CENTER_CROP));
-
         }
-
     }
 
     /**
@@ -87,7 +85,14 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
      */
     @Override
     public void onDismiss() {
-        builder.activity.onBackPressed();
+        if (!builder.exitAnimation) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                viewer.pager().setTransitionName("sdf");
+                builder.activity.finish();
+            }
+        } else {
+            builder.activity.onBackPressed();
+        }
     }
 
     /**
@@ -101,8 +106,11 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
             if (viewer.isScaled()) {
                 viewer.resetScale();
             } else {
-                if (builder.activity == null) {
-                    dialog.cancel();
+                if (!builder.exitAnimation) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        viewer.pager().setTransitionName("sdf");
+                        builder.activity.finish();
+                    }
                 } else {
                     builder.activity.onBackPressed();
                 }
@@ -197,6 +205,7 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
         private boolean shouldStatusBarHide = true;
         private boolean isZoomingAllowed = true;
         private boolean isSwipeToDismissAllowed = true;
+        private boolean exitAnimation = true;
 
         /**
          * Constructor using a context and images urls array for this builder and the {@link ImageViewer} it creates.
@@ -347,6 +356,11 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
          */
         public Builder hideStatusBar(boolean shouldHide) {
             this.shouldStatusBarHide = shouldHide;
+            return this;
+        }
+
+        public Builder exitAnimation(boolean value) {
+            this.exitAnimation = value;
             return this;
         }
 
