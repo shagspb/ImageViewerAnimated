@@ -13,6 +13,7 @@ import android.support.annotation.StyleRes;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.drawee.generic.GenericDraweeHierarchyBuilder;
@@ -71,7 +72,12 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
             }
         });
 
+
         builder.activity.setContentView(viewer);
+        if (builder.onLoadComplete != null) {
+            builder.onLoadComplete.onComplete();
+        }
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             builder.activity.getWindow().setSharedElementEnterTransition(DraweeTransition.createTransitionSet(
                     ScalingUtils.ScaleType.CENTER_CROP, ScalingUtils.ScaleType.FIT_CENTER));
@@ -206,6 +212,7 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
         private boolean isZoomingAllowed = true;
         private boolean isSwipeToDismissAllowed = true;
         private boolean exitAnimation = true;
+        private OnLoadComplete onLoadComplete;
 
         /**
          * Constructor using a context and images urls array for this builder and the {@link ImageViewer} it creates.
@@ -361,6 +368,11 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
 
         public Builder exitAnimation(boolean value) {
             this.exitAnimation = value;
+            return this;
+        }
+
+        public Builder onLoadComplete(OnLoadComplete onLoadComplete) {
+            this.onLoadComplete = onLoadComplete;
             return this;
         }
 

@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.helloanatoly.animatedimagesviewer.ImageViewer;
+import com.helloanatoly.animatedimagesviewer.OnLoadComplete;
 import com.helloanatoly.imagevieweranimated.ImageSource;
 
 /**
