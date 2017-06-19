@@ -72,17 +72,17 @@ public class ImageViewer implements OnDismissListener, DialogInterface.OnKeyList
             }
         });
 
+        if (builder.onLoadComplete == null) {
+            builder.activity.setContentView(viewer);
 
-        builder.activity.setContentView(viewer);
-        if (builder.onLoadComplete != null) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                builder.activity.getWindow().setSharedElementEnterTransition(DraweeTransition.createTransitionSet(
+                        ScalingUtils.ScaleType.CENTER_CROP, ScalingUtils.ScaleType.FIT_CENTER));
+                builder.activity.getWindow().setSharedElementReturnTransition(DraweeTransition.createTransitionSet(
+                        ScalingUtils.ScaleType.FIT_CENTER, ScalingUtils.ScaleType.CENTER_CROP));
+            }
+        } else {
             builder.onLoadComplete.onComplete();
-        }
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            builder.activity.getWindow().setSharedElementEnterTransition(DraweeTransition.createTransitionSet(
-                    ScalingUtils.ScaleType.CENTER_CROP, ScalingUtils.ScaleType.FIT_CENTER));
-            builder.activity.getWindow().setSharedElementReturnTransition(DraweeTransition.createTransitionSet(
-                    ScalingUtils.ScaleType.FIT_CENTER, ScalingUtils.ScaleType.CENTER_CROP));
         }
     }
 

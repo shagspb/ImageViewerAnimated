@@ -14,11 +14,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_animatedimagesviewer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animatedimagesviewer/animatedimagesviewer.iml" afterPath="$PROJECT_DIR$/animatedimagesviewer/animatedimagesviewer.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java" afterPath="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/com/helloanatoly/imagevieweranimated/ui/SecondActivity.java" afterPath="$PROJECT_DIR$/sample/src/main/java/com/helloanatoly/imagevieweranimated/ui/SecondActivity.java" />
     </list>
     <ignored path="imageViewerAnimated.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,8 +147,8 @@
       <file leaf-file-name="ImageViewer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+            <state relative-caret-position="507">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -3037,8 +3041,8 @@
         <option value="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewerView.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/helloanatoly/imagevieweranimated/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/OnLoadComplete.java" />
-        <option value="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/helloanatoly/imagevieweranimated/ui/SecondActivity.java" />
+        <option value="$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java" />
       </list>
     </option>
   </component>
@@ -4029,8 +4033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animatedimagesviewer/src/main/java/com/helloanatoly/animatedimagesviewer/ImageViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        <state relative-caret-position="507">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding />
         </state>
       </provider>
